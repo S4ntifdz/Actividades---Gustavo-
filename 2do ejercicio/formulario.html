@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Agrega el enlace al archivo de estilos CSS -->
+  </head>
+  <body>
+
+    <div class="form-box">
+
+      <form id="formulario">
+        <div class="inputbox">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre">
+        </div>
+
+        <div class="inputbox">
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido">
+        </div>
+
+        <div div class="text-input">
+          <label for="fecha">Fecha de nacimiento:</label>
+          <input type="date" id="fecha">
+        </div>
+
+        <div class="text-input"><br>
+          <label for="genero">Género: </label>
+          <input type="radio" id="generoMasculino" name="genero"
+            value="masculino">
+          <label for="generoMasculino"> Masculino</label>
+          <input type="radio" id="generoFemenino" name="genero" value="femenino">
+          <label for="generoFemenino"> Femenino</label>
+        </div>
+
+        <div class="inputbox">
+          <label for="biografia" class="text-input">DNI: </label>
+          <input type="text" id="biografia">
+        </div>
+
+        <div>
+          <button type="button" class="icon-button" id="html5-button"
+            data-lang="html5">
+            <ion-icon name="logo-html5"></ion-icon>
+          </button>
+
+          <button type="button" class="icon-button" id="javascript-button"
+            data-lang="javascript">
+            <ion-icon name="logo-javascript"></ion-icon>
+          </button>
+
+          <button type="button" class="icon-button" id="css3-button"
+            data-lang="css3">
+            <ion-icon name="logo-css3"></ion-icon>
+          </button>
+
+          <button type="button" class="icon-button" id="angular-button"
+            data-lang="angular">
+            <ion-icon name="logo-angular"></ion-icon>
+          </button>
+
+          <button type="button" class="icon-button" id="python-button"
+            data-lang="python">
+            <ion-icon name="logo-python"></ion-icon>
+          </button>
+
+        </div>
+        <br>
+        <button type="submit" class="css-button-sliding-to-top--black">Enviar</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+    <script type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

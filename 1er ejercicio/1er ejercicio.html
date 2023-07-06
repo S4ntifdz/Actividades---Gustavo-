@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="ejercicio1.css">
+</head>
+<body>
+  <h1>1er Ejercicio </h1>
+  <div class="container">
+
+    <div class="calculadora">
+      <label for="input1" class="text">Primer número</label>
+      <input type="number" id="input1"><br><br>
+      <label for="input2" class="text">Segundo número</label>
+      <input type="number" id="input2"><br><br>
+      <label class="text">Seleccione una operación:</label>
+      <input type="radio" name="operacion" value="sumar"> Sumar
+      <input type="radio" name="operacion" value="restar"> Restar
+      <input type="radio" name="operacion" value="multiplicar"> Multiplicar
+      <input type="radio" name="operacion" value="dividir"> Dividir<br><br>
+      <button id="calcular">Calcular</button>  
+    </div>
+    
+  </div>
+
+  <div id="ventana-emergente">
+    <div class="contenido-ventana">
+      <span id="cerrar">&times;</span>
+      <h2>Resultado</h2>
+      <p id="resultado"></p>
+    </div>
+  </div>
+
+  <script src="ejercicio1.js"></script>
+</body>
+</html>
