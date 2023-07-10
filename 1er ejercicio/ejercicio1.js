@@ -1,20 +1,20 @@
 function mostrarVentanaEmergente(resultado) {
-  var ventanaEmergente = document.getElementById('ventana-emergente');
-  var resultadoElement = document.getElementById('resultado');
+  let ventanaEmergente = document.getElementById('ventana-emergente');
+  let resultadoElement = document.getElementById('resultado');
   resultadoElement.textContent = 'El resultado es: ' + resultado;
   ventanaEmergente.style.display = 'block';
 }
 
 function ocultarVentanaEmergente() {
-  var ventanaEmergente = document.getElementById('ventana-emergente');
+  let ventanaEmergente = document.getElementById('ventana-emergente');
   ventanaEmergente.style.display = 'none';
 }
 
 function calcular() {
-  var valor1 = parseFloat(document.getElementById('input1').value);
-  var valor2 = parseFloat(document.getElementById('input2').value);
-  var operacion = document.querySelector('input[name="operacion"]:checked').value;
-  var resultado;
+  let valor1 = parseFloat(document.getElementById('input1').value);
+  let valor2 = parseFloat(document.getElementById('input2').value);
+  let operacion = document.querySelector('input[name="operacion"]:checked').value;
+  let resultado;
 
   switch (operacion) {
     case 'sumar':
