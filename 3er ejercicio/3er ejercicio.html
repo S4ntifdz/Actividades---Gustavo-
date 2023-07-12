@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <form action="">
+        <input type="number" id="inicio" placeholder="inicio">
+        
+        <input type="number" id="fin" placeholder="fin">
+        
+        <input type="number" id="step" placeholder="step">
+    </form>
+    <div class="pantalla">
+        <span></span>
+    </div>  
+    <div id="ventana-emergente">
+    <div class="contenido-ventana">
+      <span id="cerrar">&times;</span>
+      <h2>Resultado</h2>
+      <p id="resultado"></p>
+    </div>
+  </div>
+    <button type="send" onclick="muestraArray()"> clickeame </button>
+    
+</body>
+<script src="script.js"></script>
+</html>
+
+<!-- 
+
+
+1 - tenga 3 inputs para ingresar números
+2 - tenga un botón “calcular”
+3 - generar un conteo desde hasta con un step de números dentro de un array
+4 - mostrar el array en una pantalla
+ejemplo 
+si se ingreso 3 , 10 y 2 , el resultado debería ser algo como:
+3,5, 7, 9  (donde 3 es el iniciador, 10 el el máximo a alcanzar y 2 el step de números que se saltean)
+5 - validar los números para poder cumplir con los requerimientos, por ejemplo: que el primer número sea menor al segundo número, que el step no sea negativo. 
+
+
+-->
